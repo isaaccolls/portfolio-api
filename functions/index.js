@@ -1,3 +1,5 @@
+const express = require('express');
+const cors = require('cors');
 const functions = require('firebase-functions');
 const firebase = require('firebase-admin');
 const config = require('./firebase-config.json');
@@ -7,15 +9,50 @@ firebase.initializeApp({
   databaseURL: 'https://portfolio-api-77f4e.firebaseio.com/',
 });
 
-exports.api = functions.https.onRequest((req, res) => {
-  res.header('Content-Type', 'application/json');
-  res.header('Access-Control-Allow-Origin', '*');
-  res.header('Access-Control-Allow-Headers', 'Content-Type');
-  if (req.method === 'GET') {
-    const data = firebase.database().ref('/');
-    data.on('value', (snapshot) => {
-      // res.json(snapshot.val());
-      res.json({ test: 420 });
-    });
-  }
-});
+const getCertificates = (req, res) => {
+  const data = firebase.database().ref('/');
+  data.on('value', (snapshot) => {
+    const { certificates } = snapshot.val().data;
+    res.status(200).send(certificates);
+  });
+};
+
+const getEducation = (req, res) => {
+  const data = firebase.database().ref('/');
+  data.on('value', (snapshot) => {
+    const { education } = snapshot.val().data;
+    res.status(200).send(education);
+  });
+};
+const getProjects = (req, res) => {
+  const data = firebase.database().ref('/');
+  data.on('value', (snapshot) => {
+    const { projects } = snapshot.val().data;
+    res.status(200).send(projects);
+  });
+};
+const getSkills = (req, res) => {
+  const data = firebase.database().ref('/');
+  data.on('value', (snapshot) => {
+    const { skills } = snapshot.val().data;
+    res.status(200).send(skills);
+  });
+};
+const getExperience = (req, res) => {
+  const data = firebase.database().ref('/');
+  data.on('value', (snapshot) => {
+    const { experience } = snapshot.val().data;
+    res.status(200).send(experience);
+  });
+};
+
+const app = express();
+app.use(cors({ origin: true }));
+
+app.get('/certificates', getCertificates);
+app.get('/education', getEducation);
+app.get('/projects', getProjects);
+app.get('/skills', getSkills);
+app.get('/experience', getExperience);
+
+exports.api = functions.https.onRequest(app);
