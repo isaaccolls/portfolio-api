@@ -1,0 +1,227 @@
+{
+  "data": {
+    "certificate": [
+      {
+        "date": 420,
+        "institute": "udemy",
+        "title": "devops",
+        "urlToCertified": "https://en.wikipedia.org/wiki/Hakuna_matata",
+        "urlToRepo": null
+      },
+      {
+        "date": 421,
+        "institute": "platzi",
+        "title": "dev",
+        "urlToCertified": "https://en.wikipedia.org/wiki/Hakuna_matata",
+        "urlToRepo": "https://github.com/antonio2172"
+      },
+      {
+        "date": 422,
+        "institute": "udemy",
+        "title": "hxck",
+        "urlToCertified": "https://en.wikipedia.org/wiki/Hakuna_matata",
+        "urlToRepo": null
+      },
+      {
+        "date": 423,
+        "institute": "life",
+        "title": "ceo",
+        "urlToCertified": null,
+        "urlToRepo": "https://en.wikipedia.org/wiki/Hakuna_matata"
+      },
+      {
+        "date": 424,
+        "institute": "life",
+        "title": "test",
+        "urlToCertified": null,
+        "urlToRepo": null
+      }
+    ],
+    "education": [
+      {
+        "college": null,
+        "institute": "CH.M.",
+        "order": 0,
+        "title": "bachelor",
+        "date": "2008"
+      },
+      {
+        "college": "Uny",
+        "institute": null,
+        "order": 1,
+        "title": "Engineer",
+        "date": "2015"
+      }
+    ],
+    "projects": [
+      {
+        "category": "python",
+        "imageUrl": "http://polzavred.ru/wp-content/uploads/klubnika-poleznie-svoistva.jpg",
+        "repoUrl": "https://github.com/antonio2172"
+      },
+      {
+        "category": "js",
+        "imageUrl": "https://blistogreen.com.ua/180-home_default/grusha-noyabrskaya-11-13-m.jpg",
+        "repoUrl": "https://github.com/antonio2172"
+      },
+      {
+        "category": "php",
+        "imageUrl": "http://3.imimg.com/data3/RD/MF/MY-8642081/juicy-red-apples-250x250.jpg",
+        "repoUrl": "https://github.com/antonio2172"
+      },
+      {
+        "category": "python",
+        "imageUrl": "http://portamur.ru.opt-images.1c-bitrix-cdn.ru/upload/iblock/60f/kartofell.jpg?146035093210522",
+        "repoUrl": "https://github.com/antonio2172"
+      },
+      {
+        "category": "php",
+        "imageUrl": "http://3.imimg.com/data3/RD/MF/MY-8642081/juicy-red-apples-250x250.jpg",
+        "repoUrl": "https://github.com/antonio2172"
+      },
+      {
+        "category": "c++",
+        "imageUrl": "http://3.imimg.com/data3/RD/MF/MY-8642081/juicy-red-apples-250x250.jpg",
+        "repoUrl": "https://github.com/antonio2172"
+      }
+    ],
+    "skills": [
+      {
+        "order": 0,
+        "percent": 90,
+        "skill": "Electronic circuit design"
+      },
+      {
+        "order": 1,
+        "percent": 85,
+        "skill": "Microchip Microcontrollers"
+      },
+      {
+        "order": 2,
+        "percent": 75,
+        "skill": "PLC Zelio (Ladder)"
+      },
+      {
+        "order": 3,
+        "percent": 60,
+        "skill": "C/C++"
+      },
+      {
+        "order": 4,
+        "percent": 70,
+        "skill": "Microsoft Visual Basic"
+      },
+      {
+        "order": 5,
+        "percent": 40,
+        "skill": "Matlab"
+      },
+      {
+        "order": 6,
+        "percent": 80,
+        "skill": "HTML5 and CSS3"
+      },
+      {
+        "order": 7,
+        "percent": 70,
+        "skill": "PHP"
+      },
+      {
+        "order": 8,
+        "percent": 80,
+        "skill": "JavaScript ES6"
+      },
+      {
+        "order": 9,
+        "percent": 75,
+        "skill": "ReactJS + Redux"
+      },
+      {
+        "order": 10,
+        "percent": 75,
+        "skill": "React Native"
+      },
+      {
+        "order": 11,
+        "percent": 65,
+        "skill": "NodeJS + Express"
+      },
+      {
+        "order": 12,
+        "percent": 60,
+        "skill": "AngularJS"
+      },
+      {
+        "order": 13,
+        "percent": 75,
+        "skill": "Python"
+      },
+      {
+        "order": 14,
+        "percent": 80,
+        "skill": "Python & Appium"
+      },
+      {
+        "order": 15,
+        "percent": 80,
+        "skill": "SQL Server, MySQL y PostgreSQL"
+      },
+      {
+        "order": 16,
+        "percent": 75,
+        "skill": "MongoDB"
+      },
+      {
+        "order": 17,
+        "percent": 70,
+        "skill": "Java"
+      },
+      {
+        "order": 18,
+        "percent": 60,
+        "skill": "Servers management"
+      },
+      {
+        "order": 19,
+        "percent": 65,
+        "skill": "Amazon Web Services"
+      },
+      {
+        "order": 20,
+        "percent": 80,
+        "skill": "Agile methodologies"
+      },
+      {
+        "order": 21,
+        "percent": 85,
+        "skill": "Git and version control"
+      }
+    ],
+    "experience": [
+      {
+        "dateEnd": 1992,
+        "dateStart": 1991,
+        "duties": "Clouds are free they come and go as they please. A beautiful little sunset. In nature, dead trees are just as normal as live trees. You can spend all day playing with mountains. You can do anything here. So don't worry about it.",
+        "employer": "Fleas Market",
+        "position": "engineer",
+        "department": "it"
+      },
+      {
+        "dateEnd": 1601,
+        "dateStart": 1600,
+        "duties": "Once you learn the technique, ohhh! Turn you loose on the world; you become a tiger. If these lines aren't straight, your water's going to run right out of your painting and get your floor wet. Fluff it up a little and hypnotize it.",
+        "employer": "UnyLeaks",
+        "position": "engineer",
+        "department": "hxck"
+      },
+      {
+        "dateEnd": 1995,
+        "dateStart": 1994,
+        "duties": "Everybody's different. Trees are different. Let them all be individuals. They say everything looks better with odd numbers of things. But sometimes I put even numbers—just to upset the critics. I thought today we would make a happy little stream that's just running through the woods here. You need the dark in order to show the light. The little tiny Tim easels will let you down. We want to use a lot pressure while using no pressure at all.",
+        "employer": "Whack",
+        "position": "engineer",
+        "department": null
+      }
+    ]
+  }
+}
